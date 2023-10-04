@@ -6,11 +6,12 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
     <script src="app.js" defer></script>
 </head>
 <body>
     <div class="grid-container">
-        <div class="header">
+        <header class="header">
             <div class="header__top">
                 <form action="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -29,22 +30,26 @@
                     <button>Share</button>
                 </div>
             </div>
-        </div>
+        </header>
 
         <div class="dashboard">
-            <img src="#" class="dashboard__logo">
-            <h1>Dashboard</h1>
-            <ul class="dashboard__nav">
-                <li class="nav__li">Home</li>
-                <li class="nav__li">Profile</li>
-                <li class="nav__li">Messages</li>
-                <li class="nav__li">History</li>
-                <li class="nav__li">Tasks</li>
-                <li class="nav__li">Communities</li>
-                <li class="nav__li nav__controls">Settings</li>
-                <li class="nav__li nav__controls">Support</li>
-                <li class="nav__li nav__controls">Privacy</li>
-            </ul>
+            <div class="dashboard__top">
+                <span class="material-icons dashboard__icon">dashboard</span>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="dashboard__bottom">
+                <ul class="dashboard__nav">
+                    <li class="nav__li">Home</li>
+                    <li class="nav__li">Profile</li>
+                    <li class="nav__li">Messages</li>
+                    <li class="nav__li">History</li>
+                    <li class="nav__li">Tasks</li>
+                    <li class="nav__li">Communities</li>
+                    <li class="nav__li nav__controls">Settings</li>
+                    <li class="nav__li nav__controls">Support</li>
+                    <li class="nav__li nav__controls">Privacy</li>
+                </ul>
+            </div>
         </div>
 
         <div class="body-container">
