@@ -5,9 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="app.js" defer></script>
 </head>
 <body>
+    <div class="grid-container">
+        <div class="header">
+            <div class="header__top">
+                <form action="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="Search.." name="search">
+                  </form>
+                  <div class="bell-icon"></div>
+                  <img src="#" class="header__top__icon" alt="icon">
+                  <h4 class="username">Morgan Oakley</h4>
+            </div>
+            <div class="header__bottom">
+                <img src="" alt="icon" class="header__bottom__icon">
+                <p>Hi there,</p>
+                <h2>Morgan Oakley (@morgan)</h2>
+                <div class="header__bottom__actions">
+                    <button class="actions__button">New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard">
+            <img src="#" class="dashboard__logo">
+            <h1>Dashboard</h1>
+            <ul class="dashboard__nav">
+                <li class="nav__li">Home</li>
+                <li class="nav__li">Profile</li>
+                <li class="nav__li">Messages</li>
+                <li class="nav__li">History</li>
+                <li class="nav__li">Tasks</li>
+                <li class="nav__li">Communities</li>
+                <li class="nav__li nav__controls">Settings</li>
+                <li class="nav__li nav__controls">Support</li>
+                <li class="nav__li nav__controls">Privacy</li>
+            </ul>
+        </div>
+
+        <div class="projects">
+            <h5 class="prokects__title">Your Project</h5>
+            <div class="projects__element">
+                <h5>Project 1</h5>
+                <p>Upsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, se</p>
+                <div class="element_svgs"></div>
+            </div>
+            <div class="projects__element">
+                <h5>Project 2</h5>
+                <p class="element__text">Risus commodo viverra maecenas accumsan lacus vel. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Nec sagittis aliquam malesuada bibendum arcu vitae elementum.</p>
+                <div class="element_svgs"></div>
+            </div>
+            <div class="projects__element">
+                <h5>Project 3</h5>
+                <p class="element__text">Ullamcorper morbi tincidunt ornare massa eget egestas purus. Dis parturient montes nascetur ridiculus. Euismod quis viverra nibh cras pulvinar mattis.</p>
+                <div class="element_svgs"></div>
+            </div>
+            <div class="projects__element">
+                <h5>Project 4</h5>
+                <p class="element__text">Amet purus gravida quis blandit turpis cursus. Enim facilisis gravida neque convallis a cras semper. Dapibus ultrices in iaculis nunc sed augue.</p>
+                <div class="element_svgs"></div>
+            </div>
+            <div class="projects__element">
+                <h5>Project 5</h5>
+                <p class="element__text">Turpis egestas integer eget aliquet nibh praesent tristique magna. Neque laoreet suspendisse interdum consectetur libero. Etiam erat</p>
+                <div class="element_svgs"></div>
+            </div>
+            <div class="projects__element">
+                <h5>Project 6</h5>
+                <p class="element__text">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et</p>
+                <div class="element_svgs"></div>
+            </div>
+        </div>
+
+        <div class="announcements">
+            <div class="annoucements_child">
+                <h6>Site Maintenance</h6>
+            <p>Reprehenderit porro eos dignissimos beatae et</p>
+            </div>
+
+            <div class="annoucements_child">
+                <h6>Commiunity Share Day</h6>
+                <p>Reprehenderit porro eos dignissimos beatae et</p>
+            </div>
+
+            <div class="annoucements_child">
+                <h6>Updated Privacy Policy</h6>
+                <p>Reprehenderit porro eos dignissimos beatae et</p>
+            </div>
+        </div>
+
+        <div class="trending">
+            <ul>
+                <li>
+                    <img src="#" class="img tegan_img">
+                    <p>@tegan</p>
+                    <p>World Peace Builder</p>
+                </li>
+
+                <li>
+                    <img src="#" class="img morgan_img">
+                    <p>@morgan</p>
+                    <p>Super Cool Project</p>
+                </li>
+
+                <li>
+                    <img src="#" class="img kendall_img">
+                    <p>@kendall</p>
+                    <p>Life Chaning App</p>
+                </li>
+
+                <li>
+                    <img src="#" class="img alex_img">
+                    <p>@alex</p>
+                    <p>No Traffic Maker</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
     
 </body>
 </html>
