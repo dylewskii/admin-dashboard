@@ -46,17 +46,6 @@ table {
 
 /* CSS custom properties */
 
-/* :root {
-    --dashboard-color: #ccd5ae;
-    --header-color: white;
-    --button-color: #ccd5ae;
-    --body-color: #faedcd;
-    --project-element-color: white;
-    --project-element-highlight: #d4a373;
-    --announcements-color: white;
-    --trending-color: white;
-} */
-
 :root {
     --dashboard-color: #1992D3;
     --header-color: white;
@@ -390,6 +379,22 @@ p {
 }
 
 .trending__item {
-    /* display: flex; */
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    padding: 20px;
+}
+
+.trending__img {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+    border-radius: 30px;
+}
+
+.trending__item__content {
+    grid-column: 2;
 }
 
