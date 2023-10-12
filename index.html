@@ -13,21 +13,28 @@
     <div class="grid-container">
         <header class="header">
             <div class="header__top">
-                <form action="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                    <input type="text" placeholder="Search..." name="search">
-                </form>
-                <img src="assets/images/bell.svg" class="header__top__icon" alt="icon">
-                <h4 class="username">Morgan Oakley</h4>
+                <div class="header__top__left">
+                    <form action="search" class="search__form">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <input type="text" placeholder="Search..." name="search" id="search" class="searchbar">
+                    </form>
+                </div>
+                <div class="header__top__right">
+                    <img src="assets/images/bell.svg" class="header__top__icon" alt="icon">
+                    <img src="assets/images/lion.jpg" width="35px" height="35px" alt="icon" class="header__bottom__icon">
+                    <h4 class="username">Morgan Oakley</h4>
+                </div>
             </div>
             <div class="header__bottom">
-                <img src="assets/images/lion.jpg" width="70px" height=70px alt="icon" class="header__bottom__icon">
-                <p>Hi there,</p>
-                <h2>Morgan Oakley (@morgan)</h2>
-                <div class="header__bottom__actions">
-                    <button class="header__btn">New</button>
-                    <button class="header__btn">Upload</button>
-                    <button class="header__btn">Share</button>
+                <div class="header__bottom__left">
+                    <img src="assets/images/lion.jpg" width="70px" height="70px" alt="icon" class="header__bottom__icon">
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
+                <div class="header__bottom__right">
+                    <button class="header__bottom__btn">New</button>
+                    <button class="header__bottom__btn">Upload</button>
+                    <button class="header__bottom__btn">Share</button>
                 </div>
             </div>
         </header>
