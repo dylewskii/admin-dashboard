@@ -115,10 +115,6 @@ table {
     width: 600px;
 }
 
-.search__form {
-
-}
-
 .searchbar {
     background-color: var(--project-element-highlight);
     border-radius: 15px;
