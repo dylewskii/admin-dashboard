@@ -332,6 +332,8 @@ table {
     margin: 12px 15px;
     padding: 40px 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
 }
 
 .projects__element > h5 {
@@ -341,6 +343,16 @@ table {
 .element__text {
     padding-top: 10px;
     font-size: 0.8rem;
+}
+
+.element__svgs {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+
+.element__svgs > a {
+    padding-left: 20px;
 }
 
 .announcements {
