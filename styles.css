@@ -161,11 +161,13 @@ table {
 
 .bell-icon {
     cursor: pointer;
+    margin: 7px 0 0 10px;
 }
 
 .username {
-    margin-left: 20px;
+    margin: 10px 0 0 15px;
     text-align: center;
+    font-family: 'Lato-Black';
 }
 
 /* bottom */
@@ -247,6 +249,7 @@ table {
     grid-row: 1 / 4;
     display: grid;
     grid-template-rows: 100px auto;
+    min-height: 100%;
 }
 
 .sidebar__top {
@@ -302,19 +305,24 @@ table {
     grid-column: 2 / 4;
     width: 100%;
     padding-top: 30px;
+    grid-template-rows: 25px 350px 350px;
+    grid-auto-rows: 350px;
+    min-height: 51rem;
 }
 
 .projects {
     grid-column: 1;
     grid-row: 2 / 4;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 258px 258px 258px;
+    grid-auto-rows: 258px;
 }
 
 
 .projects__title {
     font-size: 1.3rem;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .projects__element {
@@ -322,7 +330,7 @@ table {
     border-radius: 10px;
     border-left: solid 3px var(--project-element-highlight);
     margin: 12px 15px;
-    padding: 10px;
+    padding: 40px 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -345,7 +353,7 @@ table {
     font-size: 1.3rem;
     grid-column: 3;
     grid-row: 1;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .announcements__elements {
@@ -380,7 +388,7 @@ table {
 
 .trending__title {
     font-size: 1.3rem;
-    margin: 10px 15px;
+    margin: 10px 5px;
 }
 
 .trending__elements {
@@ -425,6 +433,23 @@ h2 {
 
 @media (max-width: 800px) {
     .projects {
-        grid-template-columns: 1fr; /* Stack projects on top of each other for smaller screens */
+        grid-template-columns: 1fr; 
     }
+}
+
+@media (max-width: 1117px) {
+    .username {
+        font-size: 0.8rem;
+        margin: 5px 10px 5px 0;
+    }
+}
+
+@media (max-width: 1117px) {
+    .username {
+        margin: 5px 10px 5px 0;
+    }
+}
+
+@media (max-width: 1235px) {
+    
 }
