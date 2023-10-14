@@ -310,6 +310,7 @@ table {
     grid-template-rows: 25px 350px 350px;
     grid-auto-rows: 350px;
     min-height: 51rem;
+    overflow: scroll;
 }
 
 .projects {
@@ -396,6 +397,10 @@ table {
     font-size: 1rem;
     color: black;
     padding: 15px 0 10px 0;
+}
+
+.announcements__item > h6:first-of-type {
+    padding-top: 30px;
 }
 
 .announcements__item > p {
